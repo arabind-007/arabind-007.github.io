@@ -1,0 +1,9 @@
+@ECHO OFF
+>output.txt (
+ECHO Please wait... until its get the information.
+ECHO =========================================
+ECHO OPEN PORTS LISTS-
+ECHO =========================================
+netstat -a
+)
+pause<nul
